@@ -3,5 +3,9 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"javascript.suggestionActions.enabled": false
+	}
 }
