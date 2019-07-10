@@ -1,5 +1,6 @@
 const http = require('http');
 const server = http.createServer();
+const port = process.env.PORT || 3000;
 
 server.on('request', (req, res) => {
     res.write('hello, world');
@@ -8,4 +9,4 @@ server.on('request', (req, res) => {
     console.log(req.url);
 })
 
-server.listen(3000);
+server.listen(port);
