@@ -1,2 +1,2 @@
-herokuにデプロイしてみた:
-https://ttk1-node.herokuapp.com/
+# TAMAPI
+https://ttk1.herokuapp.com/
